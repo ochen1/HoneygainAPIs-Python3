@@ -121,7 +121,6 @@ def fetch_referrals(authtoken:str):
 
 
 def fetch_transactions(authtoken:str):
-    #@TODO;
     """Fetches information about the user's transactions."""
     transactionlist=[]
     request = get(
