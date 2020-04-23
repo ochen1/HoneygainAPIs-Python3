@@ -19,12 +19,6 @@ If you have any tips, suggestions, comments,
 or questions, please DM me on Discord
 @idontknow#4073.
 
-Features in development:
- - ability to select which page to get
- - ability to select which entry to get
-    - then can calculate so only get 
-      one page to save bandwidth
- - exceptions-raising
 """
 
 def gen_authcode(email:str, password:str):
