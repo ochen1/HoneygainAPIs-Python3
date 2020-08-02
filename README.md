@@ -62,6 +62,10 @@ If the credentails are incorrect, a KeyError will be raised. Otherwise, a dictio
 
 ### Logging out
 When you're done with the session, there is no logout. Just destroy the token and you're done!
+
+> Note: The above documention is still incomplete, though the source code should be simple enough to look through.
+> Experiment, and see the data the functions return for yourself!
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTEzNTIxMjU5ODJdfQ==
 -->
