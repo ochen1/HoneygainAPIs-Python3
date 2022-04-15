@@ -21,8 +21,8 @@ or questions, please DM me on Discord
 
 """
 
-def create_user(email:str, password:str,coupon:str = "KEVINB82CC"):
-    """Requests an account in the header from Honeygain"""
+def create_user(email:str, password:str, coupon:str = ""):
+    """Creates a new Honeygain user"""
     request_data = post(
         "https://dashboard.honeygain.com/api/v1/users",
         json={
