@@ -21,6 +21,19 @@ or questions, please DM me on Discord
 
 """
 
+def create_user(email:str, password:str, coupon:str = ""):
+    """Creates a new Honeygain user"""
+    request_data = post(
+        "https://dashboard.honeygain.com/api/v1/users",
+        json={
+            'email': email,
+            'password': password,
+            'coupon': coupon
+        }
+    ).json()['data']
+    return request_data
+
+
 def gen_authcode(email:str, password:str):
     """Requests an authorization token used in the header from Honeygain"""
     requestdata = post(
